@@ -1,13 +1,9 @@
-import { useState } from 'react'
+const App = (): JSX.Element => {
+	return (
+		<>
+			<h1>Vite + React</h1>
+		</>
+	);
+};
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <h1>Vite + React</h1>
-    </>
-  )
-}
-
-export default App
+export default App;
